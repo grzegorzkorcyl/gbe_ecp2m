@@ -1,0 +1,9 @@
+*.jhd
+*.naf
+*.srp
+*.sym
+*.log
+*.pp
+*.tft
+*.readme
+*tmpl.vhd

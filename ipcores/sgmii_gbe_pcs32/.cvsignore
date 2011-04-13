@@ -1,0 +1,11 @@
+*.jhd
+*.naf
+*.srp
+*.sym
+*.log
+*.v
+*.htm
+*.tcl
+*tmpl.vhd
+sgmii_pcs_eval
+

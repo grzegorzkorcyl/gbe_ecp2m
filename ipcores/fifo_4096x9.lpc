@@ -1,0 +1,47 @@
+[Device]
+Family=latticeecp2m
+PartType=LFE2M100E
+PartName=LFE2M100E-5F900C
+SpeedGrade=-5
+Package=FPBGA900
+OperatingCondition=COM
+Status=P
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=FIFO_DC
+CoreRevision=5.2
+ModuleName=fifo_4096x9
+SourceFormat=Schematic/VHDL
+ParameterFileVersion=1.0
+Date=01/05/2010
+Time=23:44:15
+
+[Parameters]
+Verilog=0
+VHDL=1
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=Big Endian [MSB:LSB]
+IO=0
+FIFOImp=EBR Based
+Depth=4096
+Width=9
+RDepth=4096
+RWidth=9
+regout=0
+CtrlByRdEn=0
+EmpFlg=0
+PeMode=Static - Dual Threshold
+PeAssert=10
+PeDeassert=12
+FullFlg=0
+PfMode=Static - Dual Threshold
+PfAssert=508
+PfDeassert=506
+RDataCount=0
+WDataCount=0
+EnECC=0

@@ -1,0 +1,9 @@
+*.jhd
+*.naf
+*.srp
+*.sym
+*.log
+*.tcl
+*.v
+*tmpl.vhd
+ts_mac_eval

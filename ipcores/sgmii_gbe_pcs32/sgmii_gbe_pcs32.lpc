@@ -1,0 +1,26 @@
+[Device]
+Family=ep5m00
+PartType=LFE2M100E
+PartName=LFE2M100E-5F900C
+SpeedGrade=-5
+Package=FPBGA900
+OperatingCondition=COM
+Status=P
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=IPCFG
+CoreStatus=Demo
+CoreName=SGMII/Gb Ethernet PCS
+CoreRevision=3.2
+ModuleName=sgmii_gbe_pcs32
+SourceFormat=VHDL
+ParameterFileVersion=1.0
+Date=12/10/2009
+Time=15:57:40
+
+[Parameters]
+RX_CTC=2
+RX_CTC_LOW=16
+RX_CTC_HIGH=32
+EasyConnect=1

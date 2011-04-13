@@ -1,0 +1,44 @@
+SCUBA, Version ispLever_v8.0_PROD_Build (41)
+Fri Jul 23 21:15:52 2010
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2009 Lattice Semiconductor Corporation,  All rights reserved.
+
+    Issued command   : /opt/lattice/ispLEVER8.0/isptools/ispfpga/bin/lin/scuba -w -n fifo_32kx16x8_mb2 -lang vhdl -synth synplify -bus_exp 7 -bb -arch ep5m00 -type fifodc -addr_width 15 -data_width 18 -num_words 32768 -rdata_width 9 -no_enable -pe 0 -pf 0 -rfill -fill -e 
+    Circuit name     : fifo_32kx16x8_mb2
+    Module type      : ebfifo
+    Module Version   : 5.4
+    Ports            : 
+	Inputs       : Data[17:0], WrClock, RdClock, WrEn, RdEn, Reset, RPReset, AmEmptyThresh[15:0], AmFullThresh[14:0]
+	Outputs      : Q[8:0], WCNT[15:0], RCNT[16:0], Empty, Full, AlmostEmpty, AlmostFull
+    I/O buffer       : not inserted
+    EDIF output      : suppressed
+    VHDL output      : fifo_32kx16x8_mb2.vhd
+    VHDL template    : fifo_32kx16x8_mb2_tmpl.vhd
+    VHDL testbench    : tb_fifo_32kx16x8_mb2_tmpl.vhd
+    VHDL purpose     : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : fifo_32kx16x8_mb2.srp
+    Element Usage    :
+          AGEB2 : 34
+           AND2 : 4
+            CU2 : 17
+         FADD2B : 12
+         FSUB2B : 36
+        FD1P3BX : 2
+        FD1P3DX : 102
+        FD1S3BX : 2
+        FD1S3DX : 134
+            INV : 13
+         MUX321 : 9
+            OR2 : 1
+        ROM16X1 : 181
+           XOR2 : 35
+         DP16KB : 32
+    Estimated Resource Usage:
+            LUT : 491
+            EBR : 32
+            Reg : 240

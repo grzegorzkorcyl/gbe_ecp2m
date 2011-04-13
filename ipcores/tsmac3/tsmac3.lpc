@@ -1,0 +1,28 @@
+[Device]
+Family=ep5m00
+PartType=LFE2M100E
+PartName=LFE2M100E-6F900C
+SpeedGrade=-6
+Package=FPBGA900
+OperatingCondition=COM
+Status=P
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=IPCFG
+CoreStatus=Demo
+CoreName=Tri-Speed Ethernet MAC
+CoreRevision=3.0
+ModuleName=tsmac3
+SourceFormat=VHDL
+ParameterFileVersion=1.0
+Date=08/24/2009
+Time=21:02:34
+
+[Parameters]
+MIIM=No
+MODE=SGMII easy connect
+SYNP_TOOL=1
+PREC_TOOL=0
+MODS_TOOL=1
+ALDC_TOOL=0
