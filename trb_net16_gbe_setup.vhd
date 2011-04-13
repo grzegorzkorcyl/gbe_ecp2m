@@ -158,9 +158,9 @@ begin
 			max_packet        <= x"0000_ea60"; --x"0000_fde8"; --x"0000_fde8"; -- 65k --x"0000_fde8"; -- tester
 			min_packet        <= x"0000_0007"; -- gk 20.07.10
 			max_frame         <= x"0578";
-			use_gbe           <= '1'; --'1';  -- gk 27.08.10  -- blocks the transmission until gbe gets configured
+			use_gbe           <= '0'; --'1';  -- gk 27.08.10  -- blocks the transmission until gbe gets configured
 			use_trbnet        <= '0';
-			use_multievents   <= '1';
+			use_multievents   <= '0';
 			reset_values      <= '0';
 			readout_ctr       <= x"00_0000";  -- gk 26.04.10  -- gk 07.06.10 corrected bug found by Sergey
 			readout_ctr_valid <= '0';  -- gk 26.04.10
@@ -168,7 +168,7 @@ begin
 			DBG_FIFO_RD_EN_OUT <= '0';
 			allow_large       <= '0';  -- gk 21.07.10
 			reset_fifo        <= '0';  -- gk 28.09.10
-			frame_delay       <= x"0000_1000"; -- gk 09.12.10
+			frame_delay       <= x"0000_0000"; -- gk 09.12.10
 
 		elsif (BUS_WRITE_EN_IN = '1') then
 			case BUS_ADDR_IN is
